@@ -6,7 +6,9 @@ from datetime import datetime
 from PIL import Image
 import pytesseract
 import spacy
+from dotenv import load_dotenv
 
+load_dotenv()
 # --- Configuration ---
 # Use environment variables for sensitive data
 IMAP_SERVER = os.environ.get("IMAP_SERVER", "imap.gmail.com")
