@@ -1,0 +1,13 @@
+# Database files
+database/posters.db
+
+# Attachments
+attachments/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS-specific files
+.DS_Store
+.env
